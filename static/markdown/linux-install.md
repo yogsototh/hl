@@ -1,5 +1,9 @@
 ## Package-based install
 
+Note: the instructions below explain how to install GHC and cabal-install. For
+downloading the Stack build tool, please [see the Stack download information
+page](https://github.com/commercialhaskell/stack/blob/master/doc/install_and_upgrade.md).
+
 ### Ubuntu
 
 Steps to setup:
