@@ -16,7 +16,4 @@ staticFiles "static/"
 -- local copy, in production mode uses the Cabal data-files
 -- functionality.
 getStaticDir :: MonadIO m => m FilePath
-getStaticDir =
-  if development
-     then return "static/"
-     else liftIO (getDataFileName "static")
+getStaticDir = return "static/"
