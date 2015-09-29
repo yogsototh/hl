@@ -20,7 +20,7 @@ stackSection url = do
     "You may also choose an installer package, which includes GHC and build tools."
 
   ul_ $ do
-    li_ $ (a_ [href_ "https://github.com/commercialhaskell/stack/blob/master/doc/GUIDE.md"] "Read the stack guide →")
+    li_ $ (a_ [href_ "https://github.com/yogsototh/stack/blob/master/doc/QUICKSTART.md"] "Read the stack guide →")
     li_ $ a_ [href_ "#choosing"] "Help me choose the right download →"
 
   h2_ [id_ "download-stack"] "Download stack"
